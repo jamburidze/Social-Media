@@ -1,0 +1,51 @@
+.about{
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid black;
+    .about-soon{
+        width: 70vw;
+        height: 24vh;
+        margin: 30px auto;
+        .group{
+            width: 100%;
+            height: 220px;
+            margin:  auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+           
+            .group img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+        }
+    
+
+    }
+    .description{
+        border: 2px solid black;
+        height: 200px;
+        display: flex;
+        width: 80vw;
+        margin: 70px auto;
+        .devs-socials{
+            border: 2px solid red;
+            width: 50%;
+            align-items: center;
+        }
+        
+        .about-devs{
+            border: 2px solid yellow;
+            width: 50%;
+            .cont{
+                margin: auto;
+            }
+        }
+    }
+
+}
+
